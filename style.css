@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap");
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif ;
+	font-weight: bold; 
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.avatar{
+	width: 500px;
+	height: 320px;
+}
+
+
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../images/lafargue.jpg);
+	color: white;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+}
+
+.banner h1{
+	font-size: 50px;
+	padding-top: 120px;
+}
+
+.banner h2{
+	font-size: 30px;
+	font-weight: lighter ;
+	opacity: 0.8 ;
+	margin-bottom: 50px;
+}
+
+.btn-blue{
+	background-color: #4FB0AE;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif ;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards h2{
+	padding-right: 300px;
+}
+
+.card{
+	padding: 25px;
+	display : flex ;
+ 	align-items: center;
+  	justify-content: space-between;
+  	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  	border-radius: 6px;
+  	margin: 10px;
+  	flex-basis: 280px;
+  	flex-grow: 1;
+}
+
+.card img{
+	 width: 150px;
+	 border-radius: 6px
+}
+
+.card h3{
+	 flex-grow: 1;
+	 padding-left: 20px;
+	 font-size: 20px;
+}
+
+
+
+.container{
+	width: 700px;
+	margin: 60px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
